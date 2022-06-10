@@ -1,0 +1,297 @@
+﻿body.carte {
+    background-color:#cdced2;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+    background-image: url("");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+    body.carte .carte-outer {
+        margin: 20px auto;
+        max-width: 450px;
+        background-color: #FFFBF4;
+        border-radius: 8px;
+        box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.2);
+        padding: 40px 20px 20px 20px;
+    }
+
+    body.carte .carte-inner {
+        text-align: center;
+        color: #000000;
+    }
+
+    body.carte .logo { 
+     width: 100%;
+  	  display: block;
+  	  margin-left: auto;
+     margin-right: auto;
+        
+        
+    }
+
+    body.carte .photo {
+        margin: 0 auto 20px auto;
+        width: 60%;
+        max-width: 280px;
+        border : 3px solid black ;
+        border-radius: 280px;
+    }
+
+    body.carte .nophoto {
+        height: 40px;
+    }
+
+    body .carte .main > div {
+        margin: 6px 0;
+    }
+
+    body.carte .nom {
+        font-size: 2em;
+        font-weight: 700;
+        padding-top : 5%;
+    }
+
+    body.carte .fonction {
+        margin-top: 5px;
+        font-size: 1.4em;
+        color: #000000;
+        font-weight: 500;
+        padding-top: 5%;
+    }
+
+    body.carte .photologo {
+     
+        border-radius: 4px;
+        width: 100%;
+        max-width: 450px;
+        display: block;
+  	  	  margin-left: auto;
+     	  margin-right: auto;
+     	  padding-top: 5%;
+    }
+
+    body.carte .coordonnees {
+      
+        font-size: 1.4em;
+        font-weight: 500;
+        padding-top: 5%;
+    }
+
+        body.carte .coordonnees > div {
+            margin: 10px;
+        }
+
+    body.carte .video {
+        margin: 20px;
+    }
+
+    body.carte .video > a{
+        display: block;
+        width: 75%;
+        margin: 0 auto;
+        padding-top: 5%;
+    }
+
+        body.carte .video > a > img {
+            width: 100%;
+        }
+
+    body.carte .bouton {
+        margin: 0 20px;
+        padding: 10px;
+    }
+
+    body.carte .bouton .bouton-inner-site {
+           
+        }
+
+    body.carte .bouton-inner-site > a {
+        display: block;
+        margin: 16px 0;
+        padding: 7px;
+        background-color: #ffffff;
+        border-radius: 6px;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 0.9em;
+        cursor: pointer;
+    }
+        body.carte .bouton-inner-site > a > img{
+            display: block;
+            height: 1.3em;
+            float: left;
+            margin-top: -2px;
+        }
+
+        body.carte .bouton-inner-site > a:hover, body.carte .bouton-inner-site > a:focus {
+            text-decoration: none;
+            background-color: #30b3c9;
+            color: #ffffff;
+        }
+        
+        body.carte .bouton-inner-site > a.completed, body.carte .bouton-inner-site > a.completed:hover, body.carte .bouton-inner-site > a.completed:focus {
+            background-color: #fea467;
+            color: #ffffff;
+        }
+   
+   //
+        
+     body.carte .bouton .bouton-inner-contact {
+       
+        }
+
+    body.carte .bouton-inner-contact > a {
+        display: block;
+        margin: 16px 0;
+        padding: 7px;
+        background-color: #ffffff;
+        border-radius: 6px;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 0.9em;
+        cursor: pointer;
+    }
+        body.carte .bouton-inner-contact > a > img{
+            display: block;
+            height: 1.3em;
+            float: left;
+            margin-top: -2px;
+        }
+
+        body.carte .bouton-inner-contact > a:hover, body.carte .bouton-inner-contact > a:focus {
+            text-decoration: none;
+            background-color: #30b3c9;
+            color: #ffffff;
+        }
+        
+        body.carte .bouton-inner-contact > a.completed, body.carte .bouton-inner-contact > a.completed:hover, body.carte .bouton-inner-contact > a.completed:focus {
+            background-color: #fea467;
+            color: #ffffff;
+        }
+//
+
+     body.carte .bouton .bouton-inner-loc {
+       
+        }
+
+    body.carte .bouton-inner-loc > a {
+        display: block;
+        margin: 16px 0;
+        padding: 7px;
+        background-color: #ffffff;
+        border-radius: 6px;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 0.9em;
+        cursor: pointer;
+    }
+        body.carte .bouton-inner-loc > a > img{
+            display: block;
+            height: 1.3em;
+            float: left;
+            margin-top: -2px;
+        }
+
+        body.carte .bouton-inner-loc > a:hover, body.carte .bouton-inner-loc > a:focus {
+            text-decoration: none;
+            background-color: #30b3c9;
+            color: #ffffff;
+        }
+        
+        body.carte .bouton-inner-loc > a.completed, body.carte .bouton-inner-loc > a.completed:hover, body.carte .bouton-inner-loc > a.completed:focus {
+            background-color: #fea467;
+            color: #ffffff;
+        }
+        
+        //
+        
+    body.carte .societe {
+        font-size: 0.9em;
+        padding-top: 10%;
+    }
+
+    body.carte .partenaires {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+        font-weight: 500;
+        color: #FFFFFF;
+        text-decoration: underline;
+        padding-top: 5%; 
+    }
+
+    body.carte .reseaux {
+        margin: 40px 0 10px 0;
+        font-size: 80%;
+        text-align: center;
+    }
+
+        body.carte .reseaux span {
+            display: block;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+
+        body.carte .reseaux a {
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+            body.carte .reseaux a img {
+                width: 100%;
+            }
+
+    body.carte .disclamer {
+        box-sizing: border-box;
+        margin: 10px auto;
+        max-width: 550px;
+        padding: 20px 0;
+        font-size: 0.6em;
+        text-align: justify;
+    }
+
+        body.carte .disclamer > p {
+            margin: 5px;
+        }
+
+textarea#forClipboard {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+}
+
+@media (max-width: 450px) {
+    body .carte {
+        background-color: #ffffff;
+    }
+
+        body.carte .carte-outer {
+            margin: 0px;
+            border-radius: 0;
+            box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+        }
+
+        body.carte .bouton {
+            margin: 10px 10px;
+            padding: 5px;
+        }
+
+        body.carte .video > a {
+            width: 85%;
+        }
+}

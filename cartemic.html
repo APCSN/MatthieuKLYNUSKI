@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- saved from url=(0101)https://apcsn.github.io/MatthieuKlynuski/-->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--<base href="/">--><base href=".">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="180x180" href="apc_files/images/apc/apc.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="mic_files/images/mic/mic.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="mic_files/images/mic/mic.png">
+    <title>MATT IMMO CONSEIL</title>
+    <link rel="stylesheet" href="./mic_files/fond.css">
+    <link rel="stylesheet" href="./mic_files/carte.css">
+    <script type="text/javascript">
+        !function (T, l, y) { var S = T.location, k = "script", D = "instrumentationKey", C = "ingestionendpoint", I = "disableExceptionTracking", E = "ai.device.", b = "toLowerCase", w = "crossOrigin", N = "POST", e = "appInsightsSDK", t = y.name || "appInsights"; (y.name || T[e]) && (T[e] = t); var n = T[t] || function (d) { var g = !1, f = !1, m = { initialize: !0, queue: [], sv: "5", version: 2, config: d }; function v(e, t) { var n = {}, a = "Browser"; return n[E + "id"] = a[b](), n[E + "type"] = a, n["ai.operation.name"] = S && S.pathname || "_unknown_", n["ai.internal.sdkVersion"] = "javascript:snippet_" + (m.sv || m.version), { time: function () { var e = new Date; function t(e) { var t = "" + e; return 1 === t.length && (t = "0" + t), t } return e.getUTCFullYear() + "-" + t(1 + e.getUTCMonth()) + "-" + t(e.getUTCDate()) + "T" + t(e.getUTCHours()) + ":" + t(e.getUTCMinutes()) + ":" + t(e.getUTCSeconds()) + "." + ((e.getUTCMilliseconds() / 1e3).toFixed(3) + "").slice(2, 5) + "Z" }(), iKey: e, name: "Microsoft.ApplicationInsights." + e.replace(/-/g, "") + "." + t, sampleRate: 100, tags: n, data: { baseData: { ver: 2 } } } } var h = d.url || y.src; if (h) { function a(e) { var t, n, a, i, r, o, s, c, u, p, l; g = !0, m.queue = [], f || (f = !0, t = h, s = function () { var e = {}, t = d.connectionString; if (t) for (var n = t.split(";"), a = 0; a < n.length; a++) { var i = n[a].split("="); 2 === i.length && (e[i[0][b]()] = i[1]) } if (!e[C]) { var r = e.endpointsuffix, o = r ? e.location : null; e[C] = "https://" + (o ? o + "." : "") + "dc." + (r || "services.visualstudio.com") } return e }(), c = s[D] || d[D] || "", u = s[C], p = u ? u + "/v2/track" : d.endpointUrl, (l = []).push((n = "SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)", a = t, i = p, (o = (r = v(c, "Exception")).data).baseType = "ExceptionData", o.baseData.exceptions = [{ typeName: "SDKLoadFailed", message: n.replace(/\./g, "-"), hasFullStack: !1, stack: n + "\nSnippet failed to load [" + a + "] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: " + (S && S.pathname || "_unknown_") + "\nEndpoint: " + i, parsedStack: [] }], r)), l.push(function (e, t, n, a) { var i = v(c, "Message"), r = i.data; r.baseType = "MessageData"; var o = r.baseData; return o.message = 'AI (Internal): 99 message:"' + ("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) (" + n + ")").replace(/\"/g, "") + '"', o.properties = { endpoint: a }, i }(0, 0, t, p)), function (e, t) { if (JSON) { var n = T.fetch; if (n && !y.useXhr) n(t, { method: N, body: JSON.stringify(e), mode: "cors" }); else if (XMLHttpRequest) { var a = new XMLHttpRequest; a.open(N, t), a.setRequestHeader("Content-type", "application/json"), a.send(JSON.stringify(e)) } } }(l, p)) } function i(e, t) { f || setTimeout(function () { !t && m.core || a() }, 500) } var e = function () { var n = l.createElement(k); n.src = h; var e = y[w]; return !e && "" !== e || "undefined" == n[w] || (n[w] = e), n.onload = i, n.onerror = a, n.onreadystatechange = function (e, t) { "loaded" !== n.readyState && "complete" !== n.readyState || i(0, t) }, n }(); y.ld < 0 ? l.getElementsByTagName("head")[0].appendChild(e) : setTimeout(function () { l.getElementsByTagName(k)[0].parentNode.appendChild(e) }, y.ld || 0) } try { m.cookie = l.cookie } catch (p) { } function t(e) { for (; e.length;)!function (t) { m[t] = function () { var e = arguments; g || m.queue.push(function () { m[t].apply(m, e) }) } }(e.pop()) } var n = "track", r = "TrackPage", o = "TrackEvent"; t([n + "Event", n + "PageView", n + "Exception", n + "Trace", n + "DependencyData", n + "Metric", n + "PageViewPerformance", "start" + r, "stop" + r, "start" + o, "stop" + o, "addTelemetryInitializer", "setAuthenticatedUserContext", "clearAuthenticatedUserContext", "flush"]), m.SeverityLevel = { Verbose: 0, Information: 1, Warning: 2, Error: 3, Critical: 4 }; var s = (d.extensionConfig || {}).ApplicationInsightsAnalytics || {}; if (!0 !== d[I] && !0 !== s[I]) { var c = "onerror"; t(["_" + c]); var u = T[c]; T[c] = function (e, t, n, a, i) { var r = u && u(e, t, n, a, i); return !0 !== r && m["_" + c]({ message: e, url: t, lineNumber: n, columnNumber: a, error: i }), r }, d.autoExceptionInstrumented = !0 } return m }(y.cfg); function a() { y.onInit && y.onInit(n) } (T[t] = n).queue && 0 === n.queue.length ? (n.queue.push(a), n.trackPageView({})) : a() }(window, document, {
+            src: "https://js.monitor.azure.com/scripts/b/ai.2.min.js",
+            crossOrigin: "anonymous",
+            cfg: {
+                connectionString: "InstrumentationKey=f8cf1581-28a2-483f-98e6-79d397a7f86c;"
+            }
+        });
+    </script>
+<script src="./mic_files/ai.2.min.js" crossorigin="anonymous"></script></head>
+<body class="carte">
+    <div class="carte-outer">
+    <div class="carte-inner">
+        <img class="logo" src="mic_files/images/logo/logo.png" alt="logo">
+            <img class="photo" src="mic_files/images/courtiers/matthieu.png" alt="eric">
+        <div class="main">
+            <div class="nom">Matthieu KLYNUSKI</div>
+            <div class="fonction">Facilitateur de crédit</div>
+        </div>
+        <div class="coordonnees">
+                <div><a href="tel:0607578542">06 07 57 85 42</a></div>
+            <div><a href="mailto:contact@mattimmoconseil.fr">contact@mattimmoconseil.fr</a></div>
+        </div>
+        <div class="video">
+            <a target="_blank" href="https://www.youtube.com/watch?v=hku0HJ1o7p8">
+                <img src="mic_files/images/video/video.png">
+            </a>
+        </div>
+        <div class="bouton">
+            <div class="bouton-inner-site">
+                    <a target="site" href="https://mattimmoconseil.fr/">
+                    		<img src="mic_files/images/partager/partager.png">Site Internet</a>
+            </div>
+            <div class="bouton-inner-contact">
+                	<a target="contact" href="mic_files/images/contactcard/Matthieu Klynuski.vcf">
+                	<img src="mic_files/images/telechargement/telechargement.png">Télécharger le contact</a>
+            </div>
+                <div class="bouton-inner-loc">
+              		<a target="loc" href="https://www.google.fr/maps/@/data=!3m1!4b1!4m3!11m2!2sGNnW2lpiREi-dvulb1U4vQ!3e3">
+              		<img src="mic_files/images/point/point.png">Nous retrouver</a>
+            </div>
+            <span class="bar"></span>
+        </div>
+            <div class="societe">
+                    <div class="orias">Numéro ORIAS: 19006508</div>
+                    <div class="orias">Numéro SIRET: 853 180 156 00020</div>
+            </div>
+    </div>
+    <img class="photologo" src="mic_files/images/mic/mic.png">
+    <div class="reseaux">
+        <span>Retrouvez-nous sur les réseaux</span>
+        <a href="https://www.facebook.com/mattimmoconseil/" title="Retrouvez-nous sur Facebook" target="_blank"><img src="mic_files/images/reseaux/facebook.png"></a>
+        <a href="https://www.instagram.com/matt_immo_conseil_/" title="Retrouvez-nous sur Instagram" target="_blank"><img src="mic_files/images/reseaux/instagram.png"></a>
+        <a href="https://www.linkedin.com/in/matthieu-klynuski-67a91566/" title="Suivez-nous sur LinkedIn" target="_blank"><img src="mic_files/images/reseaux/linkedin.png"></a>
+        <a href="https://www.youtube.com/channel/UCeFVt7caIfQkyvdxsTgZ7oQ/videos" title="Notre chaine Youtube" target="_blank"><img src="mic_files/images/reseaux/youtube.png"></a>
+    </div>
+</div>
+
+<div class="disclamer">
+    <p>Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager. Les impayés
+				afférents au(x) crédit(s) sollicité(s) peuvent avoir de graves conséquences sur votre patrimoine et vous pourriez être redevable(s), à
+				l'égard de la banque, du capital restant dû, majoré d'intérêts de retard, ainsi que d'une indemnité.
+				En application des articles L751-1 et suivants du Code de la consommation, les incidents de paiement caractérisés font l’objet d’une
+				inscription au fichier des incidents de remboursement des crédits aux particuliers (FICP) géré par la Banque de France.
+				En matière de crédit immobilier, l’emprunteur dispose d’un délai de réflexion de 10 jours après réception de l’offre de prêt émise par
+				l'établissement bancaire pour donner son accord.
+				En matière de crédit à la consommation, l'emprunteur dispose d’un délai de 14 jours calendaires pour revenir sur son engagement
+				vis-à-vis du contrat de crédit. La mise à disposition des fonds peut être demandée à partir du 8ème jour sans que cela ne réduise le
+				délai de rétractation.</p>
+				
+    <p>Aucun versement de quelque nature que ce soit ne peut être exigé d'un particulier avant l'obtention d'un ou plusieurs prêts d'argent
+				Pour tout prêt immobilier, l'emprunteur dispose d'un délai de réflexion de 10 jours
+				Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager.</p>
+</div>
+
+
+<script>
+    //document.getElementById("CopyLink").onclick = () => {
+    //    let btn = document.getElementById("CopyLink");
+    //    let t = document.getElementById("forClipboard");
+    //    t.value = window.location.href;
+    //    t.select();
+    //    t.setSelectionRange(0, 99999);
+    //    document.execCommand("copy");
+    //    let oText = btn.innerText;
+    //    btn.innerText = "Le lien a été copié";
+    //    btn.classList.add("completed");
+    //    setTimeout(() => {
+    //        btn.innerText = oText;
+    //        btn.classList.remove("completed");
+    //    }, 2000);
+    //};
+
+    if (navigator.share)
+        document.getElementById("ShareLink").classList.remove("hidden");
+    document.getElementById("ShareLink").onclick = () => {
+        navigator.share({
+            title: document.title,
+            url: window.location.href
+        })
+    };
+</script>
+
+
+</body></html>
