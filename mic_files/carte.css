@@ -33,7 +33,6 @@
   	  margin-left: auto;
      margin-right: auto;
         
-        
     }
 
     body.carte .photo {
@@ -144,7 +143,7 @@ body.carte .reseau {
 
         body.carte .bouton-inner-site > a:hover, body.carte .bouton-inner-site > a:focus {
             text-decoration: none;
-            background-color: #30b3c9;
+            background-color: #004a63;
             color: #ffffff;
         }
         
@@ -179,7 +178,7 @@ body.carte .reseau {
 
         body.carte .bouton-inner-contact > a:hover, body.carte .bouton-inner-contact > a:focus {
             text-decoration: none;
-            background-color: #30b3c9;
+            background-color: #0391b2;
             color: #ffffff;
         }
         
@@ -213,7 +212,7 @@ body.carte .reseau {
 
         body.carte .bouton-inner-loc > a:hover, body.carte .bouton-inner-loc > a:focus {
             text-decoration: none;
-            background-color: #30b3c9;
+            background-color: #2bb4c9;
             color: #ffffff;
         }
         
